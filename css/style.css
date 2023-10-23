@@ -387,7 +387,8 @@ a:hover {
 @media screen and (max-width: 768px){
     /* header */
     .logoh img{
-        width: 150px;
+        margin-left: -30px;
+        width: 100px;
     }
     .ul{
         position: fixed;
@@ -415,6 +416,7 @@ a:hover {
         font-size: 26px;
     }
     nav .menu-icon{
+        margin-right: -30px;
         display: block;
     }   
     nav .close-icon{/* configura a posição do botão fechar */
@@ -428,7 +430,7 @@ a:hover {
     /* config da Section 2 */
     .body-two{
         width: 100%;
-        margin-top: 160%;
+        margin-top: 220%;
     }
     .box-two-pai{
         width: 100%;
@@ -467,5 +469,19 @@ a:hover {
     }
     .social-icons a{
         font-size: 40px;
+    }
+    /* 
+     */
+    .container-slider-single{
+        height: 350px;
+    }
+    /* 
+    seta do slide de cima  */
+    .box-filho-one{
+        width: 100%;
+    }
+    .box-filho-one img{
+        width: 50px;
+        margin-left: -5%;
     }
 }
